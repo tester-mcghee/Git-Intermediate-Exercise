@@ -21,5 +21,35 @@ var data = [
     "address": "123 Derp Street",
     "note": "Yay yay yay",
     "sponsored": true
+  },
+  {
+    "name": "Restaurant D",
+    "address": "123 Main Street",
+    "neighborhood": "Ginter Park",
+    "note": "This is a note (A)"
+  },
+  {
+    "name": "Restaurant E",
+    "address": "123 Franklin Street",
+    "neighborhood": "Bellvue",
+    "note": "This is a note (B)"
+  },
+  {
+    "name": "Alamo BBQ",
+    "neighborhood": "Church Hill",
+    "address": "2202 Jefferson Ave",
+    "note": "There's no basement in the Alamo"
+  },
+  {
+    "name": "Dutch & Company",
+    "neighborhood": "Church Hill",
+    "address": "400 N 27th St",
+    "note": "They serve food that you should eat"
+  },
+  {
+    "name": "Weenie Beanie",
+    "neighborhood": "Church Hill",
+    "address": "123 Maple St",
+    "note": "It's a landmark"
   }
 ];
