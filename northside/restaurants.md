@@ -11,3 +11,4 @@ title: "Restaurants"
 <div id="suggestion"></div>
 
 <script type="text/javascript" src="restaurants.js"></script>
+<script type="text/javascript" src="../suggestion.js"></script>
