@@ -33,10 +33,10 @@ function printSuggestion(inputData) {
       '<div class="org">' + suggestion.name;
 
   if (suggestion.sponsored) {
-    var html += '<span id=sponsored>sponsored</span>'
+    var html = html + '<span id=sponsored>sponsored</span>';
   }
 
-  html += '</div>' +
+  html = html + '</div>' +
     '<div class="adr">' +
       '<div class="street-address">' + suggestion.address + '</div>' +
       '<span class="locality">Richmond</span>, ' +
