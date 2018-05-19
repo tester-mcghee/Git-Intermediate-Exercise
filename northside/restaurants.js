@@ -51,5 +51,31 @@ var data = [
     "neighborhood": "Church Hill",
     "address": "123 Maple St",
     "note": "It's a landmark"
+  },
+  {
+    "name": "Doofusburg",
+    "neighborhood": "Church Hill",
+    "address": "123 Maple St",
+    "note": "It's a landmark"
+  },
+  {
+    "name": "Platypusville",
+    "neighborhood": "Church Hill",
+    "address": "123 Maple St",
+    "note": "It's a landmark",
+    "sponsored": true
+  },
+  {
+    "name": "Sloppy Joe's",
+    "neighborhood": "Church Hill",
+    "address": "123 Maple St",
+    "note": "It's a landmark",
+    "sponsored": true
+  },
+  {
+    "name": "Dinglehopper's",
+    "neighborhood": "Church Hill",
+    "address": "123 Maple St",
+    "note": "It's a landmark"
   }
 ];
