@@ -27,15 +27,35 @@ function printSuggestion(inputData) {
   console.group("Suggestion");
   console.log(JSON.stringify(suggestion, null, '  '));
   console.groupEnd();
-  document.getElementById("suggestion").innerHTML =
+
+  var html =
     '<div class="vcard">' +
-      '<div class="org">' + suggestion.name + '</div>' +
-      '<div class="adr">' +
-        '<div class="street-address">' + suggestion.address + '</div>' +
-        '<span class="locality">Richmond</span>, ' +
-        '<span class="state">VA</span>' +
-      '</div>' +
-      '<div class="note">' + suggestion.note + '</div>' +
-    '</div>';
+      '<div class="org">' + suggestion.name;
+
+  if (suggestion.sponsored) {
+    var html += '<span id=sponsored>sponsored</span>'
+  }
+
+  html += '</div>' +
+    '<div class="adr">' +
+      '<div class="street-address">' + suggestion.address + '</div>' +
+      '<span class="locality">Richmond</span>, ' +
+      '<span class="state">VA</span>' +
+    '</div>' +
+    '<div class="note">' + suggestion.note + '</div>' +
+  '</div>';
+
+  document.getElementById("suggestion").innerHTML = html;
+
+  // document.getElementById("suggestion").innerHTML =
+  //   '<div class="vcard">' +
+  //     '<div class="org">' + suggestion.name + '</div>' +
+  //     '<div class="adr">' +
+  //       '<div class="street-address">' + suggestion.address + '</div>' +
+  //       '<span class="locality">Richmond</span>, ' +
+  //       '<span class="state">VA</span>' +
+  //     '</div>' +
+  //     '<div class="note">' + suggestion.note + '</div>' +
+  //   '</div>';
   console.groupEnd();
 }
